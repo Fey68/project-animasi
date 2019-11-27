@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>belajar membuat form</title>
+</head>
+
+<body>
+<form action="formulir.html"method="get">
+
+Tiket:
+<select name="Tiket">
+	<option value="1">1</option>
+	<option value="2">2</option>
+	<option value="3">3</option>
+	<option value="4">4</option>
+	<option value="5">5</option>
+	<option value="6">6</option>
+	<option value="7">7</option>
+</select> 
+<br/>
+
+Tanggal Datang: <input type="Tanggal Datang" name="Tanggal Datang" value="Tanggal Datang"/><br/>
+
+<div class="form-group">
+      <label for="Email">Email:</label>
+      <input type="Email" class="form-control" id="Email" placeholder="Enter Email">
+    </div>
+
+
+
+
+<input type="submit" value="Submit">
+
+</form>
+
+</body>
+
+</html>
